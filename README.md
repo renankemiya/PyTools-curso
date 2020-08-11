@@ -5,6 +5,8 @@ Suportado Versão 3 do python
 Aprendendo a criar projetos 
 
 [![Build Status](https://travis-ci.org/renankemiya/PyTools-curso.svg?branch=master)](https://travis-ci.org/renankemiya/PyTools-curso)
+[![Updates](https://pyup.io/repos/github/renankemiya/PyTools-curso/shield.svg)](https://pyup.io/repos/github/renankemiya/PyTools-curso/)
+[![Python 3](https://pyup.io/repos/github/renankemiya/PyTools-curso/python-3-shield.svg)](https://pyup.io/repos/github/renankemiya/PyTools-curso/)
 
 Para instalar:
 ```Console
