@@ -27,8 +27,8 @@ standard_exclude_directories = [
 def find_package_data(
         where=".",
         package="",
-        exclude=standard_exclude,
-        exclude_directories=standard_exclude_directories,
+        exclude=None,
+        exclude_directories=None,
         only_in_packages=True,
         show_ignored=False):
     """
@@ -50,6 +50,10 @@ def find_package_data(
     Note patterns use wildcards, or can be exact paths (including
     leading ``./``), and all searching is case-insensitive.
     """
+    if exclude_directories is None:
+        exclude_directories = standard_exclude_directories
+    if exclude is None:
+        exclude = standard_exclude
     out = {}
     stack = [(convert_path(where), "", package, only_in_packages)]
     while stack:
