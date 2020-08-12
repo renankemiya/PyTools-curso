@@ -9,6 +9,7 @@ Link para o curso [Python Pro](https://www.python.pro.br)
 [![Build Status](https://travis-ci.org/renankemiya/PyTools-curso.svg?branch=master)](https://travis-ci.org/renankemiya/PyTools-curso)
 [![Updates](https://pyup.io/repos/github/renankemiya/PyTools-curso/shield.svg)](https://pyup.io/repos/github/renankemiya/PyTools-curso/)
 [![Python 3](https://pyup.io/repos/github/renankemiya/PyTools-curso/python-3-shield.svg)](https://pyup.io/repos/github/renankemiya/PyTools-curso/)
+[![codecov](https://codecov.io/gh/renankemiya/PyTools-curso/branch/master/graph/badge.svg)](https://codecov.io/gh/renankemiya/PyTools-curso)
 
 Para instalar:
 ```Console
