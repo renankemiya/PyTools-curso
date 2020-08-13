@@ -22,8 +22,6 @@ def test_criar_enviador_de_email():
 #         'Testando o código.'
 #     )
 #     assert remetente in resultado
-
-
 @pytest.mark.parametrize(
     'remetente',
     ['', 'renankemiya']
