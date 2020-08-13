@@ -31,10 +31,9 @@ def test_remetente(remetente):
 def test_remetente(remetente):
     enviador = Enviador()
     with pytest.raises(EmailInvalido):
-        resultado = enviador.enviar(
+        enviador.enviar(
             remetente,
             'albertomiyashiro26@gmail.com',
             'Cursos Python Pro',
             'Testando o código.'
         )
-    return resultado
