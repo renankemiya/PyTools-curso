@@ -14,7 +14,8 @@ class Sessao:
         return self.usuarios
 
     def roll_back(self):
-        pass
+        self.usuarios = []
+        self.contador = 0
 
     def fechar(self):
         pass
@@ -25,7 +26,8 @@ class Conexao:
     def __init__(self):
         sleep(1)
 
-    def gerar_sessao(self):
+    @staticmethod
+    def gerar_sessao():
         return Sessao()
 
     def fechar(self):
