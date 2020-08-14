@@ -5,6 +5,3 @@ requirementes:
   - Pipfile
   - Pipfile.lock
 schedule: every week
-requirementes:
-  - Pipfile
-  - Pipfile.lock
